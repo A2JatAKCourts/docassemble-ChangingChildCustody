@@ -16,7 +16,7 @@ Scenario: Row #36
     | parents_agree    | True                 |         | 
 #      | appeal | True |  |
 #      | set_aside | True |  |
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 11 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 11 steps"
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"  
     And I should see the phrase "Tell the court about your agreement"
@@ -45,7 +45,7 @@ Scenario: Row #36b
     | parents_agree          | True                 |         | 
 #      | appeal | True |  |
 #      | set_aside | True |  |
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 11 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 11 steps"
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"  
     And I should see the phrase "Tell the court about your agreement"
@@ -74,7 +74,7 @@ Scenario: Row #36b
 #      | appeal | True |  |
 #      | set_aside | False |  |
 #    And I take a screenshot
-#    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 5 steps"
+#    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 5 steps"
 #    And I should see the phrase "Decide the steps you want to take"
 #    And I should see the phrase "Find out if you and the other parent agree"
 #    And I should see the phrase "Tell the court about your agreement"
@@ -96,7 +96,7 @@ Scenario: Row #36b
 #      | appeal | False |  |
 #      | set_aside | True |  |
 #    And I take a screenshot
-#    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 5 steps"
+#    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 5 steps"
 #    And I should see the phrase "Decide the steps you want to take"
 #    And I should see the phrase "Find out if you and the other parent agree"  
 #    And I should see the phrase "Tell the court about your agreement"
@@ -122,7 +122,7 @@ Scenario: Row #36b
 #      | appeal | False |  |
 #      | set_aside | False |  |
 #    And I take a screenshot
-#    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 3 steps"
+#    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 3 steps"
 #    And I should see the phrase "Find out if you and the other parent agree"  
 #    And I should see the phrase "Tell the court about your agreement"
 #    And I should see the phrase "Get more information or help"
@@ -141,7 +141,7 @@ Scenario: Row #40
     | parents_agree          | False                |         | 
 #      | appeal | True |  |
 #      | set_aside | True |  |
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 9 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 9 steps"
     And I should see the phrase "Decide if you want to file an appeal"
     And I should see the phrase "Learn about the Motion to Set Aside Judgment or Order"
     And I should see the phrase "Fill out forms if you want to file a Motion to Set Aside"
@@ -167,7 +167,7 @@ Scenario: Row #40
 #      | appeal | True |  |
 #      | set_aside | False |  |
 #    And I take a screenshot
-#    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 5 steps"
+#    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 5 steps"
 #    And I should see the phrase "Decide the steps you want to take"
 #    And I should see the phrase "Find out if you and the other parent agree"
 #    And I should see the phrase "Tell the court about your agreement"
@@ -190,7 +190,7 @@ Scenario: Row #40
 #      | set_aside | True |  |
 #      | modify_within_15_days | False |  |
 #    And I take a screenshot
-#    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 65 steps"
+#    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 65 steps"
 #    And I should see the phrase "Learn about the Motion to Set Aside Judgment or Order"
 #    And I should see the phrase "Fill out forms if you want to file a Motion to Set Aside"
 #    And I should see the phrase "Fill out the Certificate of Service"
