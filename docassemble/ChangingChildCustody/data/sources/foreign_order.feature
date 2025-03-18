@@ -7,7 +7,6 @@ Scenario: Row #46
   And I get to the question id "final screen" with this data:
     | var | value | trigger |
     | user_need | change foreign custody order |  |
-  And I take a screenshot
   And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order from another state in 12 steps" 
   And I should see the phrase "Ask the court to change your custody and Parenting Plan or child support order from another state"
   And I should see the phrase "Make sure that the Alaska court has the authority to change the order"
@@ -21,4 +20,6 @@ Scenario: Row #46
   And I should see the phrase "Serve the other parent"
   And I should see the phrase "What to expect after you file a Motion to Modify"
   And I should see the phrase "Get more information or help"
+  And I take a screenshot
   And I download "changing_child_custody.pdf"
+  And I download "changing_child_custody.docx"
