@@ -8,20 +8,24 @@ generic object: ALDocumentBundle
 template: x.send_email_template
 subject: |
   % if user_need == 'change custody order':
-  Your Personal Action Plan for changing your custody or Parenting Plan order
+  Your Action Plan for changing your custody or Parenting Plan order
   % elif user_need =='change foreign custody order':
-  Your Personal Action Plan for changing your custody or Parenting Plan order from another state
+  Your Action Plan for changing your custody or Parenting Plan order from another state
   % elif user_need ==  'respond to motion in custody':
   % if type_of_response == 'appeal':
-  Your Personal Action Plan for responding to the appeal the other parent filed
+  Your Action Plan for responding to the appeal the other parent filed
   % else:
-  Your Personal Action Plan for responding to a motion the other parent filed
+  Your Action Plan for responding to a motion the other parent filed
   % endif 
   % endif
-content: |
-  Thank you for using the Alaska Court System's Guided Assistant Interview.
+content: |  
+  Thank you for using the Alaska Court System’s Court Guide Action Plan.
 
   Your Action Plan is attached.
+
+  Get [more information and a list of all the Court Guide Action Plans](https://ak-courts.info/plans).
+  
+  [ak-courts.info/plans](https://ak-courts.info/plans).
 ---
 id: final screen
 decoration: pen-to-square
@@ -30,18 +34,18 @@ question: |
   % if len(step_list) < 2:
   Get more information or help
   % else:
-  # <i class="fa-thin fa-list"></i>Your Personal Action Plan is ready!
+  # <i class="fa-thin fa-list"></i>Your Court Guide Action Plan is ready!!
   % endif
 subquestion: |  
   % if user_need == 'change custody order':
-  #### Your Personal Action Plan for changing your custody or Parenting Plan order in ${ len(step_list) } steps
+  #### Your Action Plan for changing your custody or Parenting Plan order in ${ len(step_list) } steps
   % elif user_need =='change foreign custody order':
-  #### Your Personal Action Plan for changing your custody or Parenting Plan order from another state in ${ len(step_list) } steps
+  #### Your Action Plan for changing your custody or Parenting Plan order from another state in ${ len(step_list) } steps
   % elif user_need ==  'respond to motion in custody':
   % if type_of_response == 'appeal':
-  #### Your Personal Action Plan for responding to the appeal the other parent filed, in ${ len(step_list) } steps
+  #### Your Action Plan for responding to the appeal the other parent filed, in ${ len(step_list) } steps
   % else:
-  #### Your Personal Action Plan for responding to a motion the other parent filed, in ${ len(step_list) } steps
+  #### Your Action Plan for responding to a motion the other parent filed, in ${ len(step_list) } steps
   % endif 
   % endif
     

@@ -16,7 +16,7 @@ Background:
 #     | type_of_modification['child support'] | True                         |         | 
 #     | respond_to_modify                     | agree                        |         | 
 #     And I take a screenshot
-#     And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 10 steps"
+#     And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 10 steps"
 #     And I should see the phrase "Learn about motions to modify a child support order"
 #     And I should see the phrase "Let the other parent and the court know you agree with the proposed changes"
 #     And I should see the phrase "Fill out a response that states you agree"
@@ -41,7 +41,7 @@ Background:
 #     | type_of_response                | modify                       |         | 
 #     | type_of_modification['custody'] | True                         |         | 
 #     | respond_to_modify               | agree                        |         | 
-#     And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 10 steps"
+#     And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 10 steps"
 #     And I should see the phrase "Learn about motions to modify custody or a Parenting Plan order"
 #     And I should see the phrase "Let the other parent and the court know you agree with the proposed changes"
 #     And I should see the phrase "Fill out a response that states you agree"
@@ -67,7 +67,7 @@ Scenario: Row #2b
 #    | type_of_modification['custody']       | True                         |         | 
 #    | type_of_modification['child support'] | True                         |         | 
     | respond_to_modify                     | agree                        |         | 
-    And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 10 steps"
+    And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 10 steps"
     And I should see the phrase "Learn about motions to modify custody or a Parenting Plan order"
     And I should see the phrase "Let the other parent and the court know you agree with the proposed changes"
     And I should see the phrase "Fill out a response that states you agree"
@@ -92,7 +92,7 @@ Scenario: Row #2b
 #     | type_of_response                | modify                       |         | 
 #     | type_of_modification['custody'] | True                         |         | 
 #     | respond_to_modify               | some                         |         | 
-#     And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 7 steps"
+#     And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 7 steps"
 #     And I should see the phrase "Learn about motions to modify custody or a Parenting Plan order"
 #     And I should see the phrase "Fill out a response that states you do not agree with the proposed changes"
 #     And I should see the phrase "Fill out the Certificate of Service"
@@ -114,7 +114,7 @@ Scenario: Row #2b
 #     | type_of_response                      | modify                       |         | 
 #     | type_of_modification['child support'] | True                         |         | 
 #     | respond_to_modify                     | none                         |         | 
-#     And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 7 steps"
+#     And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 7 steps"
 #     And I should see the phrase "Learn about motions to modify a child support order"
 #     And I should see the phrase "Fill out a response that states you do not agree with the proposed changes"
 #     And I should see the phrase "Fill out the Certificate of Service"
@@ -137,7 +137,7 @@ Scenario: Row #3c
 #    | type_of_modification['child support'] | True                         |         | 
 #    | type_of_modification['custody']       | True                         |         | 
     | respond_to_modify                     | some                         |         | 
-    And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 7 steps"
+    And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 7 steps"
     And I should see the phrase "Learn about motions to modify custody or a Parenting Plan order"
     And I should see the phrase "Fill out a response that states you do not agree with the proposed changes"
     And I should see the phrase "Fill out the Certificate of Service"
@@ -157,7 +157,7 @@ Scenario: Row #5
     | user_need        | respond to motion in custody |         | 
     | middle_of_case   | yes                          |         | 
     | type_of_response | reconsider                   |         | 
-    And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 5 steps"
+    And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 5 steps"
     And I should see the phrase "If the court asks, respond in writing to the Motion to Reconsider"
     And I should see the phrase "If the judge asks you to respond to the Motion to Reconsider, fill out the Certificate of Service"
     And I should see the phrase "If the judge asks you to respond to the Motion to Reconsider, file your response"
@@ -176,7 +176,7 @@ Scenario: Row #8
     | middle_of_case       | no                           |         | 
     | type_of_response     | set aside                    |         | 
     | respond_to_set_aside | none                         |         |
-    And I should see the phrase "Your Personal Action Plan for responding to a motion the other parent filed, in 6 steps"
+    And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 6 steps"
     And I should see the phrase "Fill out a response that states you do not agree with the Motion to Set Aside Judgment or Order"
     And I should see the phrase "Fill out the Certificate of Service"
     And I should see the phrase "File your response within 10 or 13 days"
@@ -196,7 +196,7 @@ Scenario: Row #9
     | middle_of_case    | no                           |         | 
     | type_of_response  | appeal                       |         | 
     | respond_to_appeal | agree                        |         | 
-    And I should see the phrase "Your Personal Action Plan for responding to the appeal the other parent filed, in 4 steps"
+    And I should see the phrase "Your Action Plan for responding to the appeal the other parent filed, in 4 steps"
     And I should see the phrase "Let the other parent know you agree with the Appeal and decide if you want to respond in writing"
     And I should see the phrase "Contact the other parent"
     And I should see the phrase "Tell the Alaska Supreme Court"
@@ -214,7 +214,7 @@ Scenario: Row #11
     | middle_of_case    | no                           |         | 
     | type_of_response  | appeal                       |         | 
     | respond_to_appeal | none                         |         | 
-    And I should see the phrase "Your Personal Action Plan for responding to the appeal the other parent filed, in 2 steps"  
+    And I should see the phrase "Your Action Plan for responding to the appeal the other parent filed, in 2 steps"  
     And I should see the phrase "Respond in writing to the Appeal"
     And I should see the phrase "Get more information or help"
     And I take a screenshot

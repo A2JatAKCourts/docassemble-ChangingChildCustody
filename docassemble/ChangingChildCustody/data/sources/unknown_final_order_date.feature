@@ -18,7 +18,7 @@ Scenario: Row #47
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['appeal']     | False                |         | 
     | unknown_final_date['set aside']  | False                |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 10 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 10 steps"
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -47,7 +47,7 @@ Scenario: Row #48
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['reconsider'] | False                |         | 
     | unknown_final_date['set aside']  | False                |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 5 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 5 steps"
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -71,7 +71,7 @@ Scenario: Row #49
     | unknown_final_date['appeal']     | False                |         | 
     | unknown_final_date['reconsider'] | False                |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 10 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 10 steps"
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -100,7 +100,7 @@ Scenario: Row #50 appeal and reconsider
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['set aside']  | False                |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 11 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 11 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -130,7 +130,7 @@ Scenario: Row #51 appeal and set aside
     | unknown_final_date['reconsider'] | False                |         | 
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 11 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 11 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -160,7 +160,7 @@ Scenario: Row #52 reconsider and set aside
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['appeal']     | False                |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 13 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 13 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -192,7 +192,7 @@ Scenario: Row #53 reconsider appeal and set aside
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 14 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 14 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Find out if you and the other parent agree"
     And I should see the phrase "Tell the court about your agreement"
@@ -225,7 +225,7 @@ Scenario: Row #54
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['appeal']     | False                |         | 
     | unknown_final_date['set aside']  | False                |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 7 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 7 steps"  
     And I should see the phrase "Learn about Motions to Reconsider" 
     And I should see the phrase "Fill out the Motion to Reconsider forms"
     And I should see the phrase "Fill out the Certificate of Service" 
@@ -251,7 +251,7 @@ Scenario: Row #55
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['reconsider'] | False                |         | 
     | unknown_final_date['set aside']  | False                |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 2 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 2 steps"  
     And I should see the phrase "Decide if you want to file an appeal"
     And I should see the phrase "Get more information or help"
     And I take a screenshot
@@ -272,7 +272,7 @@ Scenario: Row #56
     | unknown_final_date['appeal']     | False                |         | 
     | unknown_final_date['reconsider'] | False                |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 7 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 7 steps"  
     And I should see the phrase "Learn about the Motion to Set Aside Judgment or Order" 
     And I should see the phrase "Fill out forms if you want to file a Motion to Set Aside"
     And I should see the phrase "Fill out the Certificate of Service" 
@@ -298,7 +298,7 @@ Scenario: Row #57 appeal and reconsider
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['set aside']  | False                |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 9 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 9 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Decide if you want to file an appeal"
     And I should see the phrase "Learn about Motions to Reconsider" 
@@ -326,7 +326,7 @@ Scenario: Row #58 appeal and set aside
     | unknown_final_date['reconsider'] | False                |         | 
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 9 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 9 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Decide if you want to file an appeal"
     And I should see the phrase "Learn about the Motion to Set Aside Judgment or Order" 
@@ -354,7 +354,7 @@ Scenario: Row #59 reconsider and set aside
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['appeal']     | False                |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 11 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 11 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Learn about Motions to Reconsider" 
     And I should see the phrase "Fill out the Motion to Reconsider forms"
@@ -384,7 +384,7 @@ Scenario: Row #60 reconsider appeal and set aside
     | unknown_final_date['reconsider'] | True                 |         | 
     | unknown_final_date['appeal']     | True                 |         | 
     | unknown_final_date['set aside']  | True                 |         | 
-    And I should see the phrase "Your Personal Action Plan for changing your custody or Parenting Plan order in 12 steps"  
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 12 steps"  
     And I should see the phrase "Decide the steps you want to take"
     And I should see the phrase "Decide if you want to file an appeal"
     And I should see the phrase "Learn about Motions to Reconsider" 
