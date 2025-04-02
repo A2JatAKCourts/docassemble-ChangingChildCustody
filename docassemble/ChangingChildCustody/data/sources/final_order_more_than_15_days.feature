@@ -13,7 +13,7 @@ Scenario: Row #44
     | user_need        | change custody order |         | 
     | middle_of_case   | no                   |         | 
     | why_change       | problem              |         | 
-    | final_order_date | today - 16           |         | 
+    | final_order_date | today - 17           |         | 
     | parents_agree    | True                 |         | 
 #    | set_aside | True |  |
 #    | modify_after_15 | AK order |  |
@@ -69,7 +69,7 @@ Scenario: Row #45
     | user_need        | change custody order |         | 
     | middle_of_case   | no                   |         | 
     | why_change       | problem              |         | 
-    | final_order_date | today - 16           |         | 
+    | final_order_date | today - 17           |         | 
     | parents_agree    | False                |         | 
 #    | set_aside | True |  |
 #    | modify_after_15 | none |  |

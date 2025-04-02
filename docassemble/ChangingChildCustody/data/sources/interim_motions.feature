@@ -276,7 +276,7 @@ Scenario: Row #20
     | user_need             | change custody order |         | 
     | middle_of_case        | yes                  |         | 
     | type_of_interim_order | motion               |         | 
-    | interim_order_date    | today - 11           |         | 
+    | interim_order_date    | today - 12           |         | 
     | parents_agree         | True                 |         | 
 #      | motion_decision | True |  |
     And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 12 steps"
