@@ -51,5 +51,5 @@ jobs:
           INSTALL_METHOD: "server"
           # To learn more about these optional inputs, see
           # https://assemblyline.suffolklitlab.org/docs/alkiln/writing/#optional-inputs
-          # ALKILN_TAG_EXPRESSION: "@case_in_2_states_service"
+          ALKILN_TAG_EXPRESSION: "not @UnknownFinalOrderPermutations and not @UnknownFinalOrderAppealOnly"
           # ALKILN_VERSION: ""
