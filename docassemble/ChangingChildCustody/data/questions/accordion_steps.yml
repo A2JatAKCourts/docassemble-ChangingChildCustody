@@ -545,13 +545,14 @@ code: |
           step_list.append((pick_a_step_step, "pick_a_step_idx"))
           step_list.append((parents_agree_step, "parents_agree_idx"))
           step_list.append((tell_the_court_step, "tell_the_court_idx"))
-          if unknown_final_date.all_true('appeal', exclusive = True) and (filling_manner in('paper', 'dunno') or filing_method in('mail or in person', 'dunno')):
+          if defined('final_order_period') and guess_final_order_date == 'unknown' and unknown_final_date.all_true('appeal', exclusive = True) and (filling_manner in('paper', 'dunno') or filing_method in('mail or in person', 'dunno')):
             step_list.append((sign_step, "sign_idx"))
         else:
           if defined('final_order_period')  \
             and guess_final_order_date == 'unknown':
               if len(unknown_final_date.true_values()) > 1:
                   step_list.append((pick_a_step_step, "pick_a_step_idx"))
+  
     
     # deleted from just after if below, "why_change.any_true('set aside clerical error','set aside mistake of fact','set aside new evidence','set aside misconduct' ) and 
         # if set_aside:
