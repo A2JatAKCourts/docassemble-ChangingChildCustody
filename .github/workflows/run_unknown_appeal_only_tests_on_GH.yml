@@ -37,6 +37,8 @@ jobs:
         with:
           SHOW_DOCKER_OUTPUT: "${{ github.event.inputs.show_docker_output }}"
           CONFIG_CONTENTS: "${{ secrets.CONFIG_CONTENTS }}"
+          DOCASSEMBLECLI_VERSION: "${{ vars.DOCASSEMBLECLI_VERSION }}"
+          DOCASSEMBLE_IMAGE: "${{ vars.DOCASSEMBLE_IMAGE }}"    
       - run: echo "ALKiln finished starting the isolated GitHub docassemble server"
         shell: bash
 
