@@ -13,7 +13,7 @@ authors = [
     { name = "Alaska Court System", email = "CRobinson@akcourts.gov" },
 ]
 dependencies = [
-    "docassemble.AKA2JBranding @ git+https://github.com/A2JatAKCourts/docassemble-AKA2JBranding.git@main",
+    "docassemble.AKA2JBranding @ git+https://github.com/A2JatAKCourts/docassemble-AKA2JBranding.git@SyncingUpdates",
     "docassemble.AssemblyLine>=4.5.0",
 ]
 license = "MIT"
