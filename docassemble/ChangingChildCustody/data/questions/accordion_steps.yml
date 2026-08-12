@@ -1,4 +1,6 @@
-# 2026-06-14
+comment: |
+  2026-08-12 skip other_party_exempt and enter_email screen if changing foreign custody order, update standing_order to change_standing order
+  
 ---
 generic object: ALDocumentBundle
 template: x.get_email_copy
@@ -122,6 +124,7 @@ code: |
   
   if user_need == 'change foreign custody order':
     other_party_in_case  = 'the other parent'
+    foreign_court_type
     step_list.append((foreign_order_step, "foreign_order_idx"))
     step_list.append((ak_jurisdiction_step, "ak_jurisdiction_idx"))
     step_list.append((register_order_step, "register_order_idx"))
@@ -134,7 +137,8 @@ code: |
 
     if filling_manner in('paper', 'dunno') or filing_method in('mail or in person', 'dunno'):
       step_list.append((sign_step, "sign_idx"))
-    other_party_exempt
+    other_party_exempt = 'yes'
+    other_party_enter_email = False
 
     file_step_heading = 'File your Motion to Modify'
     file_modify_filing_fee = 'Pay the $75 fee to file your Motion to Modify.'
