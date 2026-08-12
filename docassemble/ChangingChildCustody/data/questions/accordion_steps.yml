@@ -1,5 +1,6 @@
 comment: |
-  2026-08-12 skip other_party_exempt and enter_email screen if changing foreign custody order
+  2026-08-12 skip other_party_exempt and enter_email screen if changing foreign custody order, update standing_order to change_standing order
+  
 ---
 generic object: ALDocumentBundle
 template: x.get_email_copy

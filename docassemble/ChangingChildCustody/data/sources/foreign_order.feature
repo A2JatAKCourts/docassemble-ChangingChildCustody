@@ -15,7 +15,7 @@ Scenario: Row #46
     And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order from another state in 11 steps"
     And I should see the phrase "Step 1: Ask the court to change your custody and Parenting Plan or child support order from another state"
     And I should see the phrase "Step 2: Make sure the Alaska court has the authority to change the order"
-    And I should see the phrase "Step 3: Register the out-of-state order"
+    And I should see the phrase "Step 3: Register your out-of-state court order"
     And I should see the phrase "Step 4: Learn about motions to modify"
     And I should see the phrase "Step 5: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 6: Fill out your child support forms"
@@ -41,10 +41,10 @@ Scenario: Row #46
     | other_party_exempt      | yes                          |         | 
     | other_party_enter_email | True                         |         | 
     | ak_patience_assembling  | True                         |         | 
-    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order from another state in 11 steps"
+    And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order from another state in 12 steps"
     And I should see the phrase "Step 1: Ask the court to change your custody and Parenting Plan or child support order from another state"
     And I should see the phrase "Step 2: Make sure the Alaska court has the authority to change the order"
-    And I should see the phrase "Step 3: Register your tribal order"
+    And I should see the phrase "Step 3: Register your tribal court order"
     And I should see the phrase "Step 4: Learn about motions to modify"
     And I should see the phrase "Step 5: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 6: Fill out your child support forms"
