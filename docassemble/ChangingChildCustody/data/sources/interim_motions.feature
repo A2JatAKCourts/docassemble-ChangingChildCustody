@@ -1,6 +1,6 @@
 @InterimMotions
 Feature: User paths
-# 2026-06-15
+# 2026-08-13
 
 Background: 
   Given the maximum seconds for each Step is 90
@@ -313,7 +313,7 @@ Scenario: Row #20
     And I should see the phrase "Step 2: Find out if you and the other parent agree"
     And I should see the phrase "Step 3: Tell the court about your agreement"
     And I should see the phrase "Step 4: Learn about motions to modify"
-    And I should see the phrase "Step 5: Fill out the Motion to Modify forms"
+    And I should see the phrase "Step 5: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 6: Fill out your child support forms"
     And I should see the phrase "Step 7: Do not wait to file your Motion to Modify"
     And I should see the phrase "Step 8: Sign if you use paper forms or do not use TrueFiling"
@@ -348,7 +348,7 @@ Scenario: Row #20b
     And I should see the phrase "Step 2: Find out if you and the other parent agree"
     And I should see the phrase "Step 3: Tell the court about your agreement"
     And I should see the phrase "Step 4: Learn about motions to modify"
-    And I should see the phrase "Step 5: Fill out the Motion to Modify forms"
+    And I should see the phrase "Step 5: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 6: Fill out your child support forms"
     And I should see the phrase "Step 7: Do not wait to file your Motion to Modify"
     And I should see the phrase "Step 8: Sign if you use paper forms or do not use TrueFiling"
@@ -418,7 +418,7 @@ Scenario: Row #22
     | ak_patience_assembling  | True    |  | 
     And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 9 steps"
     And I should see the phrase "Step 1: Learn about motions to modify"
-    And I should see the phrase "Step 2: Fill out the Motion to Modify forms"
+    And I should see the phrase "Step 2: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 3: Fill out your child support forms"
     And I should see the phrase "Step 4: Do not wait to file your Motion to Modify"
     And I should see the phrase "Step 5: Sign if you use paper forms or do not use TrueFiling"
@@ -449,7 +449,7 @@ Scenario: Row #23
     | ak_patience_assembling  | True    |  | 
     And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 9 steps"
     And I should see the phrase "Step 1: Learn about motions to modify"
-    And I should see the phrase "Step 2: Fill out the Motion to Modify forms"
+    And I should see the phrase "Step 2: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 3: Fill out your child support forms"
     And I should see the phrase "Step 4: Do not wait to file your Motion to Modify"
     And I should see the phrase "Step 5: Sign if you use paper forms or do not use TrueFiling"
@@ -481,7 +481,7 @@ Scenario: Row #23b
     | ak_patience_assembling  | True              |  | 
     And I should see the phrase "Your Action Plan for changing your custody or Parenting Plan order in 9 steps"
     And I should see the phrase "Step 1: Learn about motions to modify"
-    And I should see the phrase "Step 2: Fill out the Motion to Modify forms"
+    And I should see the phrase "Step 2: Fill out the Motion to Modify Custody forms"
     And I should see the phrase "Step 3: Fill out your child support forms"
     And I should see the phrase "Step 4: Do not wait to file your Motion to Modify"
     And I should see the phrase "Step 5: Sign if you use paper forms or do not use TrueFiling"
