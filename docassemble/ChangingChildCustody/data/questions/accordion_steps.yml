@@ -1,5 +1,5 @@
 comment: |
-  2026-08-12 skip other_party_exempt and enter_email screen if changing foreign custody order, update standing_order to change_standing order
+  2026-08-12 skip other_party_exempt and enter_email screen if changing foreign custody order, update standing_order to change_standing order, somehow forgot to change this file or it didn't save, trying again 2026-08-13
   
 ---
 generic object: ALDocumentBundle
@@ -251,7 +251,7 @@ code: |
         step_list.append((pick_a_step_step, "pick_a_step_idx"))
         step_list.append((parents_agree_step, "parents_agree_idx"))
         step_list.append((tell_the_court_step, "tell_the_court_idx"))
-        step_list.append((standing_order_step, "standing_order_idx"))
+        step_list.append((change_standing_order_step, "change_standing_order_idx"))
         step_list.append((motion_forms_step, "motion_forms_idx"))
         # images_list.append({'image': service_cert_motion_shc_1300_image, 'text': "Certificate of Service at the bottom of a motion."})
         # step_list.append((cert_of_service_step, "cert_of_service_idx"))
@@ -306,7 +306,7 @@ code: |
     if middle_of_case == 'yes' \
       and type_of_interim_order == 'standing order' \
       and not parents_agree:
-        step_list.append((standing_order_step, "standing_order_idx")) 
+        step_list.append((change_standing_order_step, "change_standing_order_idx")) 
         step_list.append((motion_forms_step, "motion_forms_idx"))
         # images_list.append({'image': service_cert_motion_shc_1300_image, 'text': "Certificate of Service at the bottom of a motion."})
         # step_list.append((cert_of_service_step, "cert_of_service_idx"))
