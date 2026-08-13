@@ -1,6 +1,6 @@
 @responding
 Feature: User paths
-# 2026-06-15
+# 2026-08-13
 
 Background: 
   Given the maximum seconds for each Step is 90
@@ -188,7 +188,7 @@ Scenario: Row #5
     | other_party_exempt     | no                           |         | 
     | ak_patience_assembling | True                         |         | 
     And I should see the phrase "Your Action Plan for responding to a motion the other parent filed, in 5 steps"
-    And I should see the phrase "Step 1: If the court asks, respond in writing to the Motion for Reconsideration"
+    And I should see the phrase "Step 1: If the judge asks, respond in writing to the Motion for Reconsideration"
     And I should see the phrase "Step 2: Sign if you use paper forms or do not use TrueFiling"    
     And I should see the phrase "Step 3: If the judge asks you to respond to the Motion for Reconsideration, file your response"
     And I should see the phrase "Step 4: If the judge asks you to respond to the Motion for Reconsideration, serve the other parent"
